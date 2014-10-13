@@ -1,0 +1,12 @@
+name = Entity Reference Autocreate
+description = Allows entityreference fields to refer to target that don't yet exist.
+core = 7.x
+package = Fields
+dependencies[] = entityreference
+
+; Information added by drupal.org packaging script on 2013-07-23
+version = "7.x-1.0"
+core = "7.x"
+project = "entityreference_autocreate"
+datestamp = "1374586875"
+

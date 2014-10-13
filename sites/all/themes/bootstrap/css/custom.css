@@ -1,0 +1,121 @@
+/** custom.css 
+    for doyouaflavor
+    by junsuwhy, Beti 
+    There are anything you want. */
+
+h1,h2,h3,h4,h5,h6,{
+	margin: 10px 10px;
+}
+
+h1,h2,h3,h4,h5,h6,
+.views-row{
+	text-align: center;
+}
+
+body {
+font-size: 16px;
+line-height: 1.428571429;
+color: #333;
+background-color: #fff;
+}
+
+p {
+	margin: 10px 0 0 10px;
+	text-align: left;
+	line-height: 28px;
+}
+
+.form-group {
+	margin-bottom: 28px;
+}
+
+.btn{
+	margin-top: 8px;
+	padding: 6px 18px;
+}
+
+.form-required {
+	color: #E94C2D;
+	font-size: 19px;
+}
+
+.btn-default {
+color: #fff;
+background-color: #747474;
+border-color: #747474;
+}
+
+.view-content{
+	max-width: 1180px
+}
+
+.views-field {
+	margin-top: 34px;
+}
+
+.views-field-field-collect-place,
+.views-field-field-collect-volunteer,
+.views-field-street,
+.views-field-field-collect-type {
+	margin-top: 6px;
+}
+
+.views-field-field-collect-date {
+	margin-top: 6px;
+	text-align: left;
+}
+
+.field-content {
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.pane-title,.block-title {
+	font-size: 24px;
+	margin-top: 74px;
+	background-color: #e8e8e8;
+	padding: 6px;
+	border-radius: 4px;	
+}
+
+tbody {
+	background-color: #fff;
+}
+
+
+@media (max-width: 767px){
+	body {
+	font-size: 20px;
+	background-color: #ececec;
+	}
+
+	p {
+	margin: 10px 0 0 10px;
+	text-align: left;
+	line-height: 32px;
+	}
+
+	.navbar {
+	border-radius: 0px;
+	}
+	.navbar.container{
+		margin-top: 0px;
+	}
+	.radio, .checkbox {
+		margin-bottom: 16px;
+	}
+	.form-group {
+	margin-bottom: 34px;
+}
+
+#block-fb-social-facebookcomment{
+	text-align: center;
+	padding-top: 70px;
+} 
+
+#block-views-food-ingredients-block .views-field-field-photo img{
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px; /* future proofing */
+	-khtml-border-radius: 100px; /* for old Konqueror browsers */
+}
